@@ -3,9 +3,11 @@
 
 /* shared styles here */
 :root {
-    --color-primary: #F948B2;
+    --color-primary: #FF42A5;
     --color-secondary: #8758F1;
     --color-info: #4EC5F7;
+    --color-white: #FFF;
+    --color-custom-gray: #534C64;
 }
 
 * {
@@ -16,7 +18,8 @@ body,
 h1,
 h3,
 h4,
-h5 {
+h5,
+p {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
@@ -36,6 +39,10 @@ h5 {
     color: var(--color-secondary);
 }
 
+.text-white {
+    color: var(--color-white);
+}
+
 .text-gradient-bg {
     background: linear-gradient(180deg, var(--color-primary), var(--color-secondary));
     background-clip: text;
@@ -49,12 +56,22 @@ h5 {
     margin-right: auto;
 }
 
+.w-60 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .w-100 {
     width: 100%;
 }
 
 .mt-6rem {
     margin-top: 6rem;
+}
+
+.mt-12rem {
+    margin-top: 12rem;
 }
 
 .btn {
@@ -66,18 +83,18 @@ h5 {
 }
 
 .btn-primary {
-    color: #FFF;
+    color: var(--color-white);
     background-color: var(--color-primary);
 }
 
 .btn-info {
-    color: #FFF;
+    color: var(--color-white);
     background-color: var(--color-info);
 }
 
 .btn-primary-reverse {
     color: var(--color-primary);
-    background-color: #FFF;
+    background-color: var(--color-white);
 }
 
 .section-title {
@@ -85,8 +102,13 @@ h5 {
     font-weight: 700;
 }
 
+.text-custom-gray {
+    color: var(--color-custom-gray);
+}
+
 .section-description {
-    color: #534C64;
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
     line-height: 30px;
 }
 
@@ -266,4 +288,24 @@ h5 {
 
 .play-games-online-img-container > .sticker {
     right: -150px;
+}
+
+/* careers styles here */
+.careers {
+    background-color: var(--color-primary);
+}
+
+.careers-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.job {
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
