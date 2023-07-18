@@ -3,7 +3,7 @@
 
 /* shared styles here */
 :root {
-    --color-primary: #FF42A5;
+    --color-primary: #F948B2;
     --color-secondary: #8758F1;
     --color-info: #4EC5F7;
 }
@@ -14,7 +14,8 @@
 
 body,
 h1,
-h3 {
+h3,
+h4 {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
@@ -24,11 +25,6 @@ h3 {
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.section-title {
-    font-size: 2.5rem;
-    font-weight: 700;
 }
 
 .text-primary {
@@ -77,6 +73,16 @@ h3 {
 .btn-primary-reverse {
     color: var(--color-primary);
     background-color: #FFF;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #534C64;
+    line-height: 30px;
 }
 
 /* header styles here */
@@ -155,4 +161,37 @@ h3 {
 .banner-img {
     display: flex;
     align-items: flex-end;
+}
+
+/* we are gamer section styles here */
+.gamer {
+    background-color: rgba(255, 66, 165, 0.03);
+}
+.gamer-items {
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    column-gap: 3.25rem;
+    align-items: center;
+}
+
+.gamer-info {
+    text-align: right;
+}
+
+.gamer-info > .section-description {
+    margin-top: 1.5rem;
+}
+
+.gamer-info > button {
+    margin-top: 1rem;
+}
+
+.gamer-moto {
+    margin-top: 1.5rem;
+}
+
+.gamer-moto > .moto {
+    font-size: 1.75rem;
 }
