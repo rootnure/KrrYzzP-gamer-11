@@ -1,7 +1,20 @@
 /* shared hover styles here */
-button,
-a {
+button:hover {
     cursor: pointer;
+    scale: 1.1;
+    transition: 0.25s ease-in-out;
+}
+
+.logo-container:hover {
+    scale: 1.15;
+    transition: 0.35s ease;
+    cursor: pointer;
+}
+
+header a:hover,
+footer a:hover {
+    scale: 1.25;
+    transition: 0.25s ease-in-out;
 }
 
 /* online games section image cards hover styles here */
@@ -42,3 +55,10 @@ a {
 }
 
 /* category hover styles here */
+.category:hover {
+    cursor: pointer;
+    border: 2px solid var(--color-primary);
+    scale: 1.1;
+    transition: 0.25s ease;
+    background-color: rgba(255, 66, 164, 0.06);
+}
