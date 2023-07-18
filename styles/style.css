@@ -5,13 +5,16 @@
 :root {
     --color-primary: #FF42A5;
     --color-secondary: #8758F1;
+    --color-info: #4EC5F7;
 }
 
 * {
     box-sizing: border-box;
 }
 
-body {
+body,
+h1,
+h3 {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
@@ -36,6 +39,46 @@ body {
     color: var(--color-secondary);
 }
 
+.text-gradient-bg {
+    background: linear-gradient(180deg, var(--color-primary), var(--color-secondary));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.w-50 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.btn {
+    padding: 20px 40px;
+    border-radius: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.btn-primary {
+    color: #FFF;
+    background-color: var(--color-primary);
+}
+
+.btn-info {
+    color: #FFF;
+    background-color: var(--color-info);
+}
+
+.btn-primary-reverse {
+    color: var(--color-primary);
+    background-color: #FFF;
+}
+
 /* header styles here */
 
 /* nav styles here */
@@ -48,26 +91,68 @@ body {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 20px;
 }
 
-.nav-links > ul {
+.logo-container > .logo-img {
+    height: 40px;
+    object-fit: cover;
+}
+
+.nav-links>ul {
     color: #3C354F;
     display: flex;
     align-items: center;
     gap: 25px;
 }
 
-.nav-links > ul > li {
+.nav-links>ul>li {
     list-style: none;
 }
 
-.nav-links > ul > li > a {
+.nav-links>ul>li>a {
     text-decoration: none;
 }
 
 .nav-links .follow-us {
     padding: 1rem 1.25rem;
     border-radius: 8px;
-    background-color: #0b02231a; 
+    background-color: #0b02231a;
+}
+
+/* banner styles here */
+.banner {
+    background-image: url('../images/banner-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.banner-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 65px;
+    align-items: center;
+}
+
+.banner-info>.section-title {
+    color: #0B0223;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-section-title {
+    font-size: 5.5rem;
+}
+
+.banner-icon {
+    color: var(--color-primary);
+}
+
+.banner-btn {
+    display: flex;
+    column-gap: 10px;
+}
+
+.banner-img {
+    display: flex;
+    align-items: flex-end;
 }
