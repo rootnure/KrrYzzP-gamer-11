@@ -1,0 +1,44 @@
+/* shared hover styles here */
+button,
+a {
+    cursor: pointer;
+}
+
+/* online games section image cards hover styles here */
+.thumbnail-container {
+    position: relative;
+}
+
+.thumbnail-container img {
+    transition: .35s ease;
+}
+
+.watch-now {
+    transition: .35s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    row-gap: 1.1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail-container:hover {
+    border: 0.2rem solid var(--color-primary);
+    border-radius: 20px;
+}
+
+.thumbnail-container:hover .watch-now {
+    background-color: rgba(0, 0, 0, 0.65);
+    opacity: 1;
+}
+
+/* category hover styles here */

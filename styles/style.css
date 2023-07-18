@@ -258,6 +258,10 @@ p {
     column-gap: 1.35rem;
 }
 
+.thumbnail-container {
+    border: 0.2rem solid var(--color-white);
+}
+
 .img-card > .card-info {
     font-size: 1.1rem;
     margin-top: 1.1rem;
