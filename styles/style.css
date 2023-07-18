@@ -182,11 +182,16 @@ p {
     font-size: 5.5rem;
 }
 
+.banner-goal {
+    line-height: 35px;
+}
+
 .banner-icon {
     color: var(--color-primary);
 }
 
 .banner-btn {
+    margin-top: 20px;
     display: flex;
     column-gap: 10px;
 }
@@ -299,7 +304,10 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    margin-bottom: 1.5rem;
+}
+
+.careers-info > button {
+    margin-top: 1.25rem;
 }
 
 .job {
