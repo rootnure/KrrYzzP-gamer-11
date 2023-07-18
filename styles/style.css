@@ -43,6 +43,10 @@ p {
     color: var(--color-white);
 }
 
+.text-white .fa-regular {
+    font-size: 3rem;
+}
+
 .text-gradient-bg {
     background: linear-gradient(180deg, var(--color-primary), var(--color-secondary));
     background-clip: text;
@@ -163,6 +167,16 @@ p {
     padding: 1rem 1.25rem;
     border-radius: 8px;
     background-color: #0b02231a;
+}
+
+.follow-us {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+.follow-us .fa-brands {
+    font-size: 2rem;
 }
 
 /* banner styles here */
@@ -385,6 +399,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 3rem;
+    font-size: 3rem;
 }
 
 .settings-policy-links {
