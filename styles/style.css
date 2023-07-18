@@ -15,7 +15,8 @@
 body,
 h1,
 h3,
-h4 {
+h4,
+h5 {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
@@ -52,6 +53,10 @@ h4 {
     width: 100%;
 }
 
+.mt-6rem {
+    margin-top: 6rem;
+}
+
 .btn {
     padding: 20px 40px;
     border-radius: 48px;
@@ -83,6 +88,12 @@ h4 {
 .section-description {
     color: #534C64;
     line-height: 30px;
+}
+
+.sticker {
+    position: absolute;
+    width: 300px;
+    bottom: -150px;
 }
 
 /* header styles here */
@@ -194,4 +205,65 @@ h4 {
 
 .gamer-moto > .moto {
     font-size: 1.75rem;
+}
+
+/* onlie games funny video styles here */
+.online-games-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.online-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.online-img-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.35rem;
+}
+
+.img-card > .card-info {
+    font-size: 1.1rem;
+    margin-top: 1.1rem;
+    font-weight: 400;
+    color: #534C64;
+}
+
+/* play instantly styles here */
+.play-instantly-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 10rem;
+}
+
+.play-instantly-info {
+    text-align: right;
+}
+
+.play-instantly-img-container {
+    position: relative;
+}
+
+.play-instantly-img-container > .sticker {
+    left: -150px;
+}
+
+/* play games online styles here */
+.play-games-online-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 15rem;
+}
+
+.play-games-online-img-container {
+    position: relative;
+}
+
+.play-games-online-img-container > .sticker {
+    right: -150px;
 }
