@@ -77,7 +77,7 @@ p {
 .btn {
     padding: 20px 40px;
     border-radius: 48px;
-    font-weight: 600;
+    font-weight: 800;
     text-transform: uppercase;
     border: 0;
 }
@@ -316,4 +316,29 @@ p {
     line-height: 40px;
     font-size: 1.25rem;
     font-weight: 600;
+}
+
+/* category sectoion styles here */
+.games-categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    row-gap: 1.25rem;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    padding: 0.75rem;
+}
+
+.category img {
+    height: 60px;
+    width: 60px;
+}
+
+.category-title {
+    font-size: 1.25rem;
 }
