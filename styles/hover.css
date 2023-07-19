@@ -6,8 +6,6 @@ button:hover {
 }
 
 .logo-container:hover {
-    scale: 1.15;
-    transition: 0.35s ease;
     cursor: pointer;
 }
 

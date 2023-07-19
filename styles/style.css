@@ -43,8 +43,8 @@ p {
     color: var(--color-white);
 }
 
-.text-white .fa-regular {
-    font-size: 3rem;
+.text-custom-gray {
+    color: var(--color-custom-gray);
 }
 
 .text-gradient-bg {
@@ -52,6 +52,14 @@ p {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+}
+
+.text-white .fa-regular {
+    font-size: 3rem;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .w-50 {
@@ -110,10 +118,6 @@ p {
 .section-title {
     font-size: 2.5rem;
     font-weight: 700;
-}
-
-.text-custom-gray {
-    color: var(--color-custom-gray);
 }
 
 .section-description {
