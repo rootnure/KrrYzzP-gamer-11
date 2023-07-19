@@ -11,6 +11,9 @@
     .mt-6rem {
         margin-top: 2rem;
     }
+    .mt-12rem {
+        margin-top: 10rem;
+    }
     .logo-container .logo-img {
         height: 1.5rem;
     }
@@ -58,20 +61,27 @@
         width: 100%;
     }
 
-    .play-instantly-items {
+    .play-instantly-items,
+    .play-games-online-items {
         grid-template-columns: repeat(1, 1fr);
         width: 85%;
     }
-    .play-instantly-info {
-        /* order: 1; */
-        width: 85%;
+    .play-instantly-info,
+    .play-games-online-info {
+        width: 100%;
         text-align: center;
     }
     .play-instantly-img-container {
-        margin-left: 4.5rem;
-        /* order: 2; */
+        margin-left: 4rem;
+    }
+    .play-games-online-img-container {
+        margin-right: 4rem;
+        order: 2;
     }
     .play-instantly-img-container > .sticker {
         left: -75px;
+    }
+    .play-games-online-img-container > .sticker {
+        right: -75px;
     }
 }

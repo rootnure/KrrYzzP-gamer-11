@@ -330,7 +330,8 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 15rem;
+    column-gap: 15rem;
+    row-gap: 2rem;
 }
 
 .play-games-online-img-container {
