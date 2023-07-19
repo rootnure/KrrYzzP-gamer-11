@@ -1,11 +1,30 @@
 /* responsive styles here */
 @media screen and (max-width: 576px) {
+    .hide {
+        display: none;
+    }
+
+    .section-title {
+        /* font-size: 2rem; */
+    }
+    .logo-container .logo-img {
+        height: 1.5rem;
+    }
     .nav-items-container,
     .nav-links>ul {
         flex-direction: column;
+        margin-top: 2rem;
     }
 
-    .nav-items-container {
+    .banner {
+        background-image: none;
+    }
+
+    .banner-items {
+        flex-direction: column-reverse;
         margin-top: 2rem;
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
     }
 }

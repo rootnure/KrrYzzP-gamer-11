@@ -1,7 +1,11 @@
 /* Work Sans font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
-/* shared styles here */
+/***************************
+
+     shared styles here 
+
+****************************/
 :root {
     --color-primary: #FF42A5;
     --color-secondary: #8758F1;
@@ -19,7 +23,8 @@ h1,
 h3,
 h4,
 h5,
-p {
+p,
+ul {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
@@ -132,7 +137,13 @@ p {
     bottom: -150px;
 }
 
-/* header styles here */
+
+
+/***************************
+
+     header styles here 
+
+****************************/
 
 /* nav styles here */
 .nav-items-container {
@@ -190,8 +201,8 @@ p {
     background-position: left;
 }
 .banner-items {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     gap: 65px;
     align-items: center;
 }
@@ -224,6 +235,12 @@ p {
     display: flex;
     align-items: flex-end;
 }
+
+/***************************
+
+     main styles here 
+
+****************************/
 
 /* we are gamer section styles here */
 .gamer {
@@ -373,7 +390,11 @@ p {
     font-size: 1.25rem;
 }
 
-/* footer styles here */
+/***************************
+
+     footer styles here 
+
+****************************/
 footer {
     background-color: #0B0223;
     padding-top: 6rem;
