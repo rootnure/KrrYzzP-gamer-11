@@ -1,0 +1,11 @@
+/* responsive styles here */
+@media screen and (max-width: 576px) {
+    .nav-items-container,
+    .nav-links>ul {
+        flex-direction: column;
+    }
+
+    .nav-items-container {
+        margin-top: 2rem;
+    }
+}
