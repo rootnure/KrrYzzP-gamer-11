@@ -351,6 +351,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    row-gap: 2rem;
 }
 
 .careers-info > button {
@@ -363,6 +364,12 @@ ul {
     line-height: 40px;
     font-size: 1.25rem;
     font-weight: 600;
+}
+.job-title {
+    text-align: left;
+}
+.job-location {
+    text-align: right;
 }
 
 /* category sectoion styles here */
