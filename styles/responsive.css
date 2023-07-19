@@ -3,34 +3,42 @@
     .hide {
         display: none;
     }
+
     .sticker {
         position: absolute;
-        width: 150px;
-        bottom: -75px;
+        width: 120px;
+        bottom: -60px;
     }
-    .mt-6rem {
+
+    .sm-mt-2rem {
         margin-top: 2rem;
     }
+
     .mt-12rem {
         margin-top: 10rem;
     }
+
     .btn {
         font-size: 0.75rem;
         padding: 15px 30px;
     }
+
     .section-title {
         font-size: 1.75rem;
         font-weight: 700;
     }
+
     .section-description {
         margin-top: 0.5rem;
         margin-bottom: 0.65rem;
         line-height: 15px;
         font-size: 0.75rem;
     }
+
     .logo-container .logo-img {
         height: 1.5rem;
     }
+
     .nav-items-container,
     .nav-links>ul {
         flex-direction: column;
@@ -48,6 +56,7 @@
         margin-right: auto;
         margin-left: auto;
     }
+
     .banner-info .section-title,
     .banner-info .banner-section-title {
         text-align: center;
@@ -57,9 +66,11 @@
         grid-template-columns: 1fr;
         width: 85%;
     }
+
     .gamer-img img {
         width: 100%;
     }
+
     .gamer-info {
         text-align: center;
     }
@@ -67,9 +78,11 @@
     .online-games-items {
         width: 85%;
     }
+
     .online-img-cards {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .online-img-cards .img-card {
         margin-bottom: 2rem;
         width: 100%;
@@ -80,23 +93,28 @@
         grid-template-columns: repeat(1, 1fr);
         width: 85%;
     }
+
     .play-instantly-info,
     .play-games-online-info {
         width: 100%;
         text-align: center;
     }
+
     .play-instantly-img-container {
         margin-left: 4rem;
     }
+
     .play-games-online-img-container {
         margin-right: 4rem;
         order: 2;
     }
-    .play-instantly-img-container > .sticker {
-        left: -75px;
+
+    .play-instantly-img-container>.sticker {
+        left: -60px;
     }
-    .play-games-online-img-container > .sticker {
-        right: -75px;
+
+    .play-games-online-img-container>.sticker {
+        right: -60px;
     }
 
     .careers {
@@ -104,16 +122,38 @@
         padding-bottom: 3rem;
 
     }
+
     .careers-items {
         grid-template-columns: repeat(1, 1fr);
         width: 75%;
     }
-    .careers-info .section-description{
+
+    .careers-info .section-description {
         font-size: 0.6rem;
         line-height: 20px;
     }
+
     .job {
         font-size: 0.65rem;
         line-height: 20px;
+    }
+
+    .games-categories {
+        width: 85%;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    .category {
+        padding: 0.25rem;
+    }
+
+    .category img {
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .category-title {
+        font-size: 0.5rem;
     }
 }
