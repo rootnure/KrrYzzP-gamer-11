@@ -446,6 +446,12 @@ footer {
     margin-top: 3rem;
 }
 
+.footer-links a,
+.social-links a,
+.settings-policy-links a {
+    padding: 0.5rem 0.75rem;
+}
+
 .copyright {
     margin-top: 3rem;
 }
