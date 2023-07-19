@@ -3,10 +3,6 @@
     .hide {
         display: none;
     }
-
-    .section-title {
-        /* font-size: 2rem; */
-    }
     .logo-container .logo-img {
         height: 1.5rem;
     }
@@ -26,5 +22,20 @@
         width: 85%;
         margin-right: auto;
         margin-left: auto;
+    }
+    .banner-info .section-title,
+    .banner-info .banner-section-title {
+        text-align: center;
+    }
+
+    .gamer-items {
+        grid-template-columns: 1fr;
+        width: 85%;
+    }
+    .gamer-img img {
+        width: 100%;
+    }
+    .gamer-info {
+        text-align: center;
     }
 }

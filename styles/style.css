@@ -250,7 +250,7 @@ ul {
     padding-top: 3.25rem;
     padding-bottom: 3.25rem;
     display: grid;
-    grid-template-columns: 7fr 5fr;
+    grid-template-columns: 2fr 1fr;
     column-gap: 3.25rem;
     align-items: center;
 }
