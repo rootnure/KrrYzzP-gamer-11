@@ -26,6 +26,7 @@ footer a:hover {
 }
 
 .watch-now {
+    text-decoration: none;
     transition: .35s ease;
     opacity: 0;
     position: absolute;
@@ -57,7 +58,11 @@ footer a:hover {
 .category:hover {
     cursor: pointer;
     border: 2px solid var(--color-primary);
-    scale: 1.1;
+    scale: 1.05;
     transition: 0.25s ease;
-    background-color: rgba(255, 66, 164, 0.06);
+    background-color: rgba(255, 66, 164, 0.05);
+}
+
+.category:hover .category-title {
+    color: var(--color-primary);
 }

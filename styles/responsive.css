@@ -67,6 +67,10 @@
         text-align: center;
     }
 
+    .gamer {
+        margin-top: 3rem;
+    }
+
     .gamer-items {
         grid-template-columns: 1fr;
         width: 85%;
@@ -180,6 +184,11 @@
     }
 
     .social-links {
+        margin-top: 1.75rem;
+        width: 45%;
+    }
+
+    .social-links button {
         font-size: 1.75rem;
         column-gap: 1rem;
         row-gap: 0.75rem;
@@ -194,8 +203,9 @@
         margin-top: 1rem;
     }
 
-    .footer-links,
-    .social-links,
+    .footer-links {
+        width: 75%;
+    }
     .settings-policy-links {
         line-height: 0.75rem;
         width: 65%;
@@ -236,6 +246,10 @@
     .banner-items {
         flex-direction: column-reverse;
         text-align: center;
+    }
+
+    .gamer {
+        margin-top: 3rem;
     }
 
     .gamer-items {
