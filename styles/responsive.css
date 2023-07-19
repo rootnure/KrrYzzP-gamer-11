@@ -38,4 +38,15 @@
     .gamer-info {
         text-align: center;
     }
+
+    .online-games-items {
+        width: 85%;
+    }
+    .online-img-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .online-img-cards .img-card {
+        margin-bottom: 2rem;
+        width: 100%;
+    }
 }
