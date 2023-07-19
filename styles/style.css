@@ -309,7 +309,8 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 10rem;
+    column-gap: 10rem;
+    row-gap: 2rem;
 }
 
 .play-instantly-info {

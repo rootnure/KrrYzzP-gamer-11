@@ -3,6 +3,14 @@
     .hide {
         display: none;
     }
+    .sticker {
+        position: absolute;
+        width: 150px;
+        bottom: -75px;
+    }
+    .mt-6rem {
+        margin-top: 2rem;
+    }
     .logo-container .logo-img {
         height: 1.5rem;
     }
@@ -48,5 +56,22 @@
     .online-img-cards .img-card {
         margin-bottom: 2rem;
         width: 100%;
+    }
+
+    .play-instantly-items {
+        grid-template-columns: repeat(1, 1fr);
+        width: 85%;
+    }
+    .play-instantly-info {
+        /* order: 1; */
+        width: 85%;
+        text-align: center;
+    }
+    .play-instantly-img-container {
+        margin-left: 4.5rem;
+        /* order: 2; */
+    }
+    .play-instantly-img-container > .sticker {
+        left: -75px;
     }
 }
