@@ -150,6 +150,8 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .logo-container {
@@ -432,11 +434,13 @@ footer {
 .social-links {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 3rem;
     font-size: 3rem;
 }
 
 .settings-policy-links {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 3rem;

@@ -4,8 +4,11 @@
         display: none;
     }
 
+    .sm-d-none {
+        display: none;
+    }
+
     .sticker {
-        position: absolute;
         width: 120px;
         bottom: -60px;
     }
@@ -155,5 +158,27 @@
 
     .category-title {
         font-size: 0.5rem;
+    }
+
+
+    .footer-links {
+        font-size: 0.65rem;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1.25rem;
+    }
+
+    .social-links {
+        width: 75%;
+        font-size: 1.75rem;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+    .settings-policy-links {
+        font-size: 0.6rem;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 1rem;
     }
 }
